@@ -3,7 +3,7 @@
   const hero = document.querySelector(".s-hero"), text = document.querySelector(".s-hero__text"),
         photo = document.querySelector(".s-hero__photo"), widget = document.querySelector(".s-hero__widget");
   if (!hero || !text || !photo || !widget) return;
-  const MIN_PHOTO = 220 + 30;
+  const MIN_PHOTO = 200 + 22;
   const fit = () => {
     let k = 1; hero.style.setProperty("--h1k", k);
     if (innerWidth < 861) return;
