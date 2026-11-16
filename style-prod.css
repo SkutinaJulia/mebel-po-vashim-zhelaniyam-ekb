@@ -248,3 +248,7 @@ h1, h2, h3, p, li, a, span, b, label, figcaption, blockquote { -webkit-hyphens: 
 
 /* правка Юли: подсказка, что текст копируется (ВК, Telegram, MAX не принимают готовый текст по ссылке) */
 .s-send__hint { margin: 8px 2px 0; font-size: .8rem; line-height: 1.4; color: var(--c-ink-soft); }
+
+/* правка Юли 16.11: услуги в форме – каждая с новой строки (пк и телефон) */
+.s-widget .s-chips--col { flex-direction: column; flex-wrap: nowrap; }
+.s-widget .s-chips--col .s-chip--row { justify-content: flex-start; }
